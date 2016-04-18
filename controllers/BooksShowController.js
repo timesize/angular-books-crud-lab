@@ -1,5 +1,5 @@
 angular.module('libraryApp')
-  .controller('BooksIndexController', BooksIndexController);
+  .controller('BooksIndexController', BooksShowController);
 
 BooksShowController.$inject=['$http', '$routeParams', '$location'];
 function BooksShowController($http, $routeParams, $location) {
